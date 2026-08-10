@@ -26,9 +26,11 @@ export const store = new Kdux.Store({
   },
   mutations: {
     reducePrice: state => {
-      state.products.forEach(product => {
-        product.price -= 1;
-      })
+      setTimeout(function () {
+        state.products.forEach(product => {
+          product.price -= 1;
+        })
+      }, 3000)
     }
   }
 })
