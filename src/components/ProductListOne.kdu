@@ -1,0 +1,20 @@
+<template>
+  <div id="product-list-one">
+    <h2>Product List One</h2>
+    <ul>
+      <li k-for=""></li>
+    </ul>
+  </div>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+
+    }
+  }
+}
+</script>
+
+<style></style>
