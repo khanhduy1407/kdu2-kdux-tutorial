@@ -4,6 +4,7 @@ import Kdux from 'kdux';
 Kdu.use(Kdux);
 
 export const store = new Kdux.Store({
+  strict: true,
   state: {
     products: [
         { name: 'Banana Skin', price: 20 },
@@ -21,6 +22,13 @@ export const store = new Kdux.Store({
         }
       });
       return saleProducts;
+    }
+  },
+  mutations: {
+    reducePrice: state => {
+      state.products.forEach(product => {
+        product.price -= 1;
+      })
     }
   }
 })
