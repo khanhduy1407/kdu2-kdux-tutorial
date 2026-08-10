@@ -1,12 +1,19 @@
 <template>
   <div id="app">
-    <product-list-one></product-list-one>
-    <product-list-two></product-list-two>
+    <product-list-one k-bind:products="products"></product-list-one>
+    <product-list-two k-bind:products="products"></product-list-two>
   </div>
 </template>
 
 <script>
+import ProductListOne from './components/ProductListOne.kdu';
+import ProductListTwo from './components/ProductListTwo.kdu';
+
 export default {
+  components: {
+    'product-list-one': ProductListOne,
+    'product-list-two': ProductListTwo
+  },
   name: 'app',
   data() {
     return {
