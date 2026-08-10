@@ -24,9 +24,9 @@
     "babel-preset-env": "1.6.0",
     "babel-preset-stage-3": "6.24.1",
     "cross-env": "5.0.5",
-    "css-loader": "0.28.7",
+    "css-loader": "7.1.4",
     "file-loader": "1.1.4",
-    "kdu-loader": "13.7.1",
+    "kdu-loader": "15.11.1",
     "kdu-template-compiler": "2.5.24",
     "webpack": "3.6.0",
     "webpack-dev-server": "2.9.1"
