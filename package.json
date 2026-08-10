@@ -10,7 +10,8 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
-    "kdu": "2.5.24"
+    "kdu": "2.5.24",
+    "kdux": "3.0.0"
   },
   "browserslist": [
     "> 1%",
