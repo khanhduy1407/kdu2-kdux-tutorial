@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "kdu": "2.5.24",
-    "kdux": "3.0.0"
+    "kdux": "3.0.1-alpha.0"
   },
   "browserslist": [
     "> 1%",
